@@ -1,6 +1,7 @@
 # Python_programming_ch1
 
 This includes some jupyterlab notebooks about Sympy.
+
         you-get -o ./you_get/ -O 11 'https://www.bilibili.com/video/BV1WT4y137cD?p=11'
         you-get -o ./you_get/ -O 12 'https://www.bilibili.com/video/BV1WT4y137cD?p=12'
         you-get -o ./you_get/ -O 13 'https://www.bilibili.com/video/BV1WT4y137cD?p=13'
