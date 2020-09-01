@@ -24,7 +24,35 @@ jobs:
         pip3 install you-get
         export PATH="$PATH:/home/runner/.local/bin:/home/runner/you_get"
         
-        you-get -o ./you_get/ --playlist 'https://www.bilibili.com/video/BV1WT4y137cD?from=search&seid=13390943057103891521'
+        you-get -o ./you_get/ 1 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=1'
+        you-get -o ./you_get/ 2 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=2'
+        you-get -o ./you_get/ 3 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=3'
+        you-get -o ./you_get/ 4 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=4'
+        you-get -o ./you_get/ 5 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=5'
+        
+        sleep 1m
+        
+        you-get -o ./you_get/ 6 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=6'
+        you-get -o ./you_get/ 7 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=7'
+        you-get -o ./you_get/ 8 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=8'
+        you-get -o ./you_get/ 9 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=9'
+        you-get -o ./you_get/ 10 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=10'
+        
+        sleep 1m
+        
+        you-get -o ./you_get/ 11 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=11'
+        you-get -o ./you_get/ 12 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=12'
+        you-get -o ./you_get/ 13 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=13'
+        you-get -o ./you_get/ 14 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=14'
+        you-get -o ./you_get/ 15 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=15'
+        
+        sleep 1m
+        
+        you-get -o ./you_get/ 16 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=16'
+        you-get -o ./you_get/ 17 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=17'
+        you-get -o ./you_get/ 18 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=18'
+        you-get -o ./you_get/ 19 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=19'
+        you-get -o ./you_get/ 20 --debug 'https://www.bilibili.com/video/BV1tT4y1u7sW?p=20'
         
         ls
         echo '============================================='
