@@ -23,18 +23,8 @@ jobs:
         echo "=========================="
         pip3 install you-get
         export PATH="$PATH:/home/runner/.local/bin:/home/runner/you_get"
-        you-get -o ./you_get/ -O 1 'https://www.bilibili.com/video/BV1WT4y137cD?p=1'
-        you-get -o ./you_get/ -O 2 'https://www.bilibili.com/video/BV1WT4y137cD?p=2'
-        you-get -o ./you_get/ -O 3 'https://www.bilibili.com/video/BV1WT4y137cD?p=3'
-        you-get -o ./you_get/ -O 4 'https://www.bilibili.com/video/BV1WT4y137cD?p=4'
-        you-get -o ./you_get/ -O 5 'https://www.bilibili.com/video/BV1WT4y137cD?p=5'
         
-        you-get -o ./you_get/ -O 6 'https://www.bilibili.com/video/BV1WT4y137cD?p=6'
-        you-get -o ./you_get/ -O 7 'https://www.bilibili.com/video/BV1WT4y137cD?p=7'
-        you-get -o ./you_get/ -O 8 'https://www.bilibili.com/video/BV1WT4y137cD?p=8'
-        you-get -o ./you_get/ -O 9 'https://www.bilibili.com/video/BV1WT4y137cD?p=9'
-        you-get -o ./you_get/ -O 10 'https://www.bilibili.com/video/BV1WT4y137cD?p=10'
-        
+        you-get -o ./you_get/ --playlist 'https://www.bilibili.com/video/BV1WT4y137cD?from=search&seid=13390943057103891521'
         
         ls
         echo '============================================='
