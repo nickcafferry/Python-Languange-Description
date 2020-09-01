@@ -66,6 +66,9 @@ jobs:
         
         cd ../
         
+        mkdir Python-Languange-Description/source
+        mkdir Python-Languange-Description/source/assets
+        mkdir Python-Languange-Description/source/assets/videos
         mkdir Python-Languange-Description/source/assets/videos/MorePython
         
         cp -r you_get/. Python-Languange-Description/source/assets/videos/MorePython/
